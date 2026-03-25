@@ -12,7 +12,7 @@ asgiref==3.11.1
     # via
     #   -r requirements/test.txt
     #   django
-attrs==25.4.0
+attrs==26.1.0
     # via
     #   -r requirements/test.txt
     #   openedx-events
@@ -44,7 +44,7 @@ click==8.3.1
     #   edx-django-utils
 code-annotations==3.0.0
     # via -r requirements/test.txt
-coverage[toml]==7.13.4
+coverage[toml]==7.13.5
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -52,7 +52,6 @@ cryptography==46.0.5
     # via
     #   -r requirements/test.txt
     #   pyjwt
-    #   secretstorage
 ddt==1.7.2
     # via -r requirements/test.txt
 django==5.2.12
@@ -97,7 +96,7 @@ django-waffle==5.0.0
     #   edx-drf-extensions
 djangoql==0.19.1
     # via -r requirements/test.txt
-djangorestframework==3.16.1
+djangorestframework==3.17.0
     # via
     #   -r requirements/test.txt
     #   drf-jwt
@@ -144,7 +143,7 @@ edx-rbac==3.0.0
     # via -r requirements/test.txt
 factory-boy==3.3.3
     # via -r requirements/test.txt
-faker==40.11.0
+faker==40.11.1
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -166,14 +165,10 @@ iniconfig==2.3.0
     #   pytest
 jaraco-classes==3.4.0
     # via keyring
-jaraco-context==6.1.1
+jaraco-context==6.1.2
     # via keyring
 jaraco-functools==4.4.0
     # via keyring
-jeepney==0.9.0
-    # via
-    #   keyring
-    #   secretstorage
 jinja2==3.1.6
     # via
     #   -r requirements/test.txt
@@ -257,7 +252,7 @@ pytest==9.0.2
     #   -r requirements/test.txt
     #   pytest-cov
     #   pytest-django
-pytest-cov==7.0.0
+pytest-cov==7.1.0
     # via -r requirements/test.txt
 pytest-django==4.12.0
     # via -r requirements/test.txt
@@ -274,7 +269,7 @@ pyyaml==6.0.3
     #   edx-django-release-util
 readme-renderer==44.0
     # via twine
-redis==7.3.0
+redis==7.4.0
     # via -r requirements/test.txt
 requests==2.32.5
     # via
@@ -295,8 +290,6 @@ roman-numerals==4.1.0
     # via sphinx
 rules==3.5
     # via -r requirements/test.txt
-secretstorage==3.5.0
-    # via keyring
 semantic-version==2.10.0
     # via
     #   -r requirements/test.txt

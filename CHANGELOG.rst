@@ -13,7 +13,8 @@ Change Log
 
 Unreleased
 **********
-* Nothing unreleased
+
+* Dropped Django 4.2 support; bumped djangorestframework, redis 7.3→7.4, attrs 25→26, chardet 7.1→7.3
 
 [1.7.2]
 ********
